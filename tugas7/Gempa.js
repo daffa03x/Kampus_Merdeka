@@ -4,6 +4,7 @@ class Gempa {
     this.skala = skala;
   }
 
+  // Method dampak
   dampak(d) {
     if (this.skala >= 0 && this.skala <= 2) {
       d = "Tidak Terasa";
